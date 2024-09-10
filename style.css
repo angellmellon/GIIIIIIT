@@ -6,25 +6,26 @@ body {
 }
 
 h1 {
-  color: pink;
+  color: #ff69b4; /* Ярко-розовый цвет */
   font-size: 2.5em; /* Увеличенный размер заголовка */
   text-align: center;
+  text-shadow: 1px 1px 2px rgba(255, 105, 180, 0.8); /* Тень для заголовка */
 }
 
 h2 {
-  color: darkslateblue; /* Цвет для h2 заголовков */
+  color: #483D8B; /* Темно-голубой цвет для h2 заголовков */
   font-size: 2em;
   text-align: center;
   margin-top: 20px; /* Отступ сверху */
 }
 
 h3 {
-  color: purple; /* Цвет для h3 заголовков */
+  color: #8A2BE2; /* Синий цвет для h3 заголовков */
   font-size: 1.8em; /* Размер h3 заголовков */
 }
 
 p {
-  color: blue;
+  color: #4682B4; /* Светло-синий цвет текста */
   font-size: 1.5em;
   text-align: justify;
   line-height: 1.6; /* Высота строки для лучшей читаемости */
@@ -32,7 +33,7 @@ p {
 }
 
 ul {
-  color: darkblue; /* Цвет для списков */
+  color: #2E8B57; /* Темно-зеленый цвет для списков */
   font-size: 1.4em; /* Размер текста в списках */
 }
 
@@ -40,19 +41,21 @@ img {
   display: block; /* Фотография как блочный элемент */
   margin: 20px auto; /* Центрирование изображения */
   border-radius: 8px; /* Скругленные углы изображения */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для изображения */
 }
 
 form {
-  background-color: #e6f7ff; /* Фоновый цвет для формы */
+  background: linear-gradient(to right, #e6f7ff, #ffffff); /* Градиент для формы */
   padding: 20px; /* Внутренние отступы для формы */
   border-radius: 10px; /* Скругленные углы формы */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для формы */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Тень для формы */
 }
 
 label {
   font-size: 1.5em; /* Размер шрифта для меток */
   display: block; /* Метки как блочные элементы */
   margin-bottom: 5px; /* Отступы снизу */
+  color: #3C3C3C; /* Темно-серый цвет для меток */
 }
 
 input[type="text"],
@@ -63,18 +66,26 @@ textarea {
   margin-bottom: 20px; /* Отступ снизу */
   border: 1px solid #ccc; /* Параметры рамки */
   border-radius: 5px; /* Скругленные углы полей */
+  transition: border 0.3s; /* Плавный переход для рамки */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #7B68EE; /* Синий цвет рамки при фокусе */
 }
 
 input[type="submit"] {
-  background-color: #28a745; /* Зеленый цвет кнопки */
+  background-color: #ff4500; /* Оранжевый цвет кнопки */
   color: white; /* Цвет текста кнопки */
   padding: 10px 15px; /* Внутренние отступы кнопки */
   border: none; /* Убираем рамку */
   border-radius: 5px; /* Скругление углов кнопки */
   cursor: pointer; /* Указатель на кнопке при наведении */
   font-size: 1.5em;
+  transition: background-color 0.3s; /* Плавный переход для фона кнопки */
 }
 
 input[type="submit"]:hover {
-  background-color: #218838; /* Темный зеленый при наведении */
+  background-color: #dc143c; /* Красный цвет при наведении на кнопку */
 }
