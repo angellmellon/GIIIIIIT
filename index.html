@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Моя веб-страница</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Привет, мир!</h2>
+  <p>Это моя первая веб-страница.</p>
+  <p>Здесь я расскажу о себе:</p>
+  
+  <h3>Обо мне</h3>
+  <p>Привет! Меня зовут [Ваше Имя], и я люблю программирование, путешествия и фотографию! В свободное время я изучаю новые технологии и работаю над своими проектами.</p>
+  
+  <h3>Мои увлечения</h3>
+  <ul>
+    <li>Программирование и разработка сайтов</li>
+    <li>Путешествия по миру</li>
+    <li>Чтение книг</li>
+    <li>Фотография и видеосъемка</li>
+  </ul>
+
+  <h3>Моя фотография</h3>
+  <img src="photo.jpg" alt="Моя фотография" style="width:300px;height:auto;">
+
+  <h3>Контактная форма</h3>
+  <form action="/submit" method="post">
+    <label for="name">Имя:</label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="message">Сообщение:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br>
+    <input type="submit" value="Отправить">
+  </form>
+</body>
+</html>
