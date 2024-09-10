@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Светлый фон страницы */
+}
+
+h1 {
+  color: pink;
+  font-size: 2.5em; /* Увеличенный размер заголовка */
+  text-align: center;
+}
+
+h2 {
+  color: darkslateblue; /* Цвет для h2 заголовков */
+  font-size: 2em;
+  text-align: center;
+  margin-top: 20px; /* Отступ сверху */
+}
+
+h3 {
+  color: purple; /* Цвет для h3 заголовков */
+  font-size: 1.8em; /* Размер h3 заголовков */
+}
+
+p {
+  color: blue;
+  font-size: 1.5em;
+  text-align: justify;
+  line-height: 1.6; /* Высота строки для лучшей читаемости */
+  margin: 15px; /* Отступы от других элементов */
+}
+
+ul {
+  color: darkblue; /* Цвет для списков */
+  font-size: 1.4em; /* Размер текста в списках */
+}
+
+img {
+  display: block; /* Фотография как блочный элемент */
+  margin: 20px auto; /* Центрирование изображения */
+  border-radius: 8px; /* Скругленные углы изображения */
+}
+
+form {
+  background-color: #e6f7ff; /* Фоновый цвет для формы */
+  padding: 20px; /* Внутренние отступы для формы */
+  border-radius: 10px; /* Скругленные углы формы */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для формы */
+}
+
+label {
+  font-size: 1.5em; /* Размер шрифта для меток */
+  display: block; /* Метки как блочные элементы */
+  margin-bottom: 5px; /* Отступы снизу */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Полная ширина полей ввода */
+  padding: 10px; /* Внутренний отступ */
+  margin-bottom: 20px; /* Отступ снизу */
+  border: 1px solid #ccc; /* Параметры рамки */
+  border-radius: 5px; /* Скругленные углы полей */
+}
+
+input[type="submit"] {
+  background-color: #28a745; /* Зеленый цвет кнопки */
+  color: white; /* Цвет текста кнопки */
+  padding: 10px 15px; /* Внутренние отступы кнопки */
+  border: none; /* Убираем рамку */
+  border-radius: 5px; /* Скругление углов кнопки */
+  cursor: pointer; /* Указатель на кнопке при наведении */
+  font-size: 1.5em;
+}
+
+input[type="submit"]:hover {
+  background-color: #218838; /* Темный зеленый при наведении */
+}
